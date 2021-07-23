@@ -10865,9 +10865,19 @@ p {
   line-height: 1.75;
 }
 #goals{
-  margin: 0 !important;
-  flex-wrap: nowrap;
+  /* margin: 0 !important; */
+  /* flex-direction:column-reverse;
+  flex-wrap: nowrap; */
 }
+  #roww {
+  justify-content: space-between;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
 .page-section {
   padding: 6rem 0;
 }
@@ -11351,4 +11361,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 div#title-heading {
   color:orange;
+}
+
+div.card.col-4{
+  transform: scale(.8);
 }
